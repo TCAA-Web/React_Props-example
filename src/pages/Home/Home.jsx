@@ -8,6 +8,7 @@ export const Home = (props) => {
   return (
     <>
       <Header random={1} title={props.title} />
+      <Header random={5} />
       <TextSection textContent={homeText} />
     </>
   );

@@ -1,0 +1,31 @@
+.buttonStyle {
+  border-radius: 4px;
+  height: 32px;
+  outline: none;
+  border: solid 1px;
+  transition: filter 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    filter: invert(100%);
+  }
+}
+
+.smallButton {
+  @extend .buttonStyle;
+  width: 120px;
+  height: 26px;
+}
+.mediumButton {
+  @extend .buttonStyle;
+  width: 160px;
+  height: 32px;
+}
+.largeButton {
+  @extend .buttonStyle;
+  width: 220px;
+  height: 36px;
+}
+.defaultButton {
+  @extend .buttonStyle;
+  width: auto;
+}

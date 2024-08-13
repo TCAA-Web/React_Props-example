@@ -16,8 +16,8 @@ function App() {
     <>
       <Navbar navLinks={navlinkArray} />
       <Home title="Home page" />
-      <Products title="Product page" />
       <About title="About page" />
+      <Products title="Product page" />
       <Footer />
     </>
   );
