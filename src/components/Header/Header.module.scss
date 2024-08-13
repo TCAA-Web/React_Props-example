@@ -1,0 +1,25 @@
+@use "../../styles/globals.scss" as *;
+
+.headerStyle {
+  background-color: $color-main;
+  border: solid 2px $color-highlight;
+  height: 25vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $margin-md;
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 5rem;
+    color: $color-white;
+    text-shadow: 1px 2px 3px black;
+    text-align: center;
+  }
+}

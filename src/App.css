@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(44, 44, 44);
+}
+
+* {
+  margin: 0;
+}
+
+p,
+h2,
+h1,
+b {
+  color: white;
+}

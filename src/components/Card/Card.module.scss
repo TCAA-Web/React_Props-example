@@ -1,0 +1,32 @@
+@use "../../styles/globals.scss" as *;
+
+.cardStyle {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  height: 420px;
+  border-radius: 8px;
+  box-shadow: 1px 3px 11px 0px;
+  background-color: $color-white;
+  margin: $margin-md;
+  padding: $margin-sm;
+  div {
+    color: $color-main;
+    img {
+      height: 160px;
+      width: 280px;
+      object-fit: contain;
+    }
+  }
+  h3 {
+    text-align: center;
+    padding: 32px;
+  }
+  h5 {
+    margin-bottom: 8px;
+  }
+  p {
+    color: $color-main;
+    margin-bottom: 8px;
+  }
+}

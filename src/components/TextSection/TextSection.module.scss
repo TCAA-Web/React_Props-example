@@ -1,0 +1,11 @@
+@use "../../styles/globals.scss" as *;
+
+.textSection {
+  width: 70%;
+  border: solid 2px $color-highlight;
+  margin: 32px auto 32px auto;
+  padding: 32px;
+  p {
+    text-align: justify;
+  }
+}

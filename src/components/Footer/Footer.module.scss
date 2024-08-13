@@ -1,0 +1,17 @@
+.footerStyle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+
+  div {
+    padding: 32px;
+    ul {
+      li {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+      }
+    }
+  }
+}

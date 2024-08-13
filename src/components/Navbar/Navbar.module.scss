@@ -1,0 +1,25 @@
+@use "../../styles/globals.scss" as *;
+
+.navStyle {
+  background-color: $color-main;
+  margin: auto;
+  height: 64px;
+  display: flex;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    a {
+      color: $color-accent;
+      font-size: 1.2rem;
+      text-align: center;
+      text-decoration: none;
+      transition: text-decoration 0.5s ease;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
